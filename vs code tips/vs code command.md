@@ -12,9 +12,14 @@
 Select only `use regular expression` then on find box type `^\n` then in replace do nothing and `replace all`
 
 
-## Remove dublicate line in vs code
+## Remove dublicate line when dublicate linse are side by side other wise its not work in vs code
 
 Select only `use regular expression` find -> `^(.*)(\n\1)+$` replace -> `$1`
+
+## Remove dublicate line form code using extention 
+
+Download `Transformer` extention by `dakara`
+Open `command platter` type -> `Trime Trailing Widespace`
 
 ## Remove space form code in vs code
 
