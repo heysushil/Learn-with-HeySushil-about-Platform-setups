@@ -16,3 +16,6 @@ Select only `use regular expression` then on find box type `^\n` then in replace
 
 Select only `use regular expression` find -> `^(.*)(\n\1)+$` replace -> `$1`
 
+## Remove space form code in vs code
+
+On `command pallater ctrl + shift + p` and find `trim traillig whidespace` will remove all whidespace
