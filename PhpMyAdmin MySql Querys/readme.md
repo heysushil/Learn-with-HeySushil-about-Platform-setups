@@ -11,3 +11,7 @@ Another way to do this using Transaction
         INSERT INTO old_authors SELECT * FROM authors WHERE DATE_FORMAT(added, "%Y-%m-%d") > "2022-04-24";
         DELETE FROM authors WHERE DATE_FORMAT(added, "%Y-%m-%d") > "2022-04-24";
         COMMIT;
+        
+# Fetch data from table gorup by dublicate data but fetch uniqly behalf of multipal group by
+        
+        SELECT recipient, events, tags, COUNT(events) AS CNT FROM tbl_email_logs WHERE tags REGEXP '^[0-9].*' GROUP BY recipient,events,tags HAVING COUNT(*) > 0;
