@@ -15,3 +15,9 @@ Another way to do this using Transaction
 # Fetch data from table gorup by dublicate data but fetch uniqly behalf of multipal group by
         
         SELECT recipient, events, tags, COUNT(events) AS CNT FROM tbl_email_logs WHERE tags REGEXP '^[0-9].*' GROUP BY recipient,events,tags HAVING COUNT(*) > 0;
+
+# Count all dublicate data form table and delete duplicate data from table remains the last max id data on table
+
+        SELECT , COUNT() AS CNT FROM mock_data GROUP BY gender HAVING COUNT(*) > 1;
+        
+        DELETE FROM mock_data WHERE id NOT IN ( SELECT MAX(id) AS MaxRecordID FROM mock_data GROUP BY gender );
