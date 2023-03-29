@@ -1,4 +1,6 @@
-# VS Code find and replace commands list
+# VS Code
+
+## VS Code find and replace commands list
 
 >> Note: all commands work in find box for that use ctrl + f to open find box
 >> In find box have find and replace options

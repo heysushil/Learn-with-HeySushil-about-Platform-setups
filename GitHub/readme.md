@@ -1,6 +1,7 @@
 # Github 
 
-### When more then one contributres work on same project and some time code conflicts happen.
+## When more then one contributres work on same project and some time code conflicts happen.
+
 ### How to resolve code conflict in git?
 
 1. If you are ussing vs code then you just need to have setup of git and `2 extentions`
