@@ -1,4 +1,4 @@
-# Git and Github 
+# Github 
 
 ### When more then one contributres work on same project and some time code conflicts happen.
 ### How to resolve code conflict in git?
