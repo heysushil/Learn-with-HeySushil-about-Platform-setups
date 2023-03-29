@@ -21,4 +21,3 @@
           3. `left` is your changes and `right` is incomming changes which is changes by other `contributer` 
           4. if you whant incomming changes then click on 1 points 4th option means `check top right corner of vs code` and click on `open changes with next revision`
           5. follow 4th step with each file in whihc you face conflict
-    
